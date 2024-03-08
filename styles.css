@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+margin: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+svg {
+    height: 30px;
+    width: 30px;
+}
+
+.sidebar svg{
+    fill: white; /* colors svg */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 16% 84%;
+    
+}
+
+/* SIDEBAR */ 
+
+.sidebar {
+    background-color: #818cf8;
+    height: 100vh;  
+    color: white;
+}
+
+.main {
+    background-color: white;
+    height: 100vh; /* use 100% of height */
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;   
+    margin: 10px;
+}
+
+.logo-text svg {
+    height: 50px; /* override svg css */
+    width: 50px;
+    margin-right: 7px;
+}
+.icon-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top:20px;
+    margin-left: 20px;
+
+}
+
+.icon-text svg {
+    margin-right: 10px; 
+}
+
+.list-items-bottom {
+    margin-top: 60px;;
+}
+
+/* MAIN SCREEN */
+
+.main {
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 18% 82%;
+}
+
+.header {
+    background-color: white;
+}
+
+.content {
+    background-color: #d4d4d8;
+}
+
+.navbar {
+    display:flex;
+    flex-direction: row;
+    margin: 10px;
+    align-items:center;
+}
+
+.navbarIcon {
+    margin-left: 50px;
+}
+
+.notificationIcon{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.avatarIcon{
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.form-input {
+    width: 600px;
+    background-color: lightgrey;
+    border-radius: 15px;
+    border: 1px solid lightgrey;    
+    margin-left: 20px;
+    margin-right: 170px;
+    height: 25px;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+}
+
+.navbar h5 {
+    font-size: 17px;
+}
+
+.welcome {
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.welcome img {
+    height: 60px;
+    width:60px;
+    border-radius: 30px;
+    margin-left: 60px;
+}
+
+.helloMessage {
+    margin-right: 450px;
+}
+
+button {
+    background-color: #818cf8;
+    margin-right: 40px;
+    width: 80px;
+    height: 34px;
+    border-radius: 15px;
+    border: 1px solid #818cf8;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.content {
+    background-color: #d4d4d8;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.card {
+    background-color: white;
+    border-left: 6px solid #fdba74; 
+    border-radius: 10px;
+    width: 80%;
+    margin: 25px 0px;
+    margin-left: 15px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.icons svg {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #737373;
+    margin:10px 0;
+}
+
+h4 {
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.right-section {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.accouncement-section p {
+    font-size: 12px;
+}
+
+.announcement-section {
+    background-color: white;
+}
+
+.ann-trend {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.ann-card {
+    height: 80%;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 22px;
+}
+
+.ann-card {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ann-text {
+    padding: 10px 10px;
+}
+
+.ann-text h6, .trend-text h6{
+    font-size: 16px;
+}
+
+.ann-text p , .trend-text p{
+    font-size: 12px;
+    color: #737373;
+}
+
+.break {
+    border: 1px solid black;
+    width: 80%;
+    display: flex;
+    margin-left: 24px;
+    margin:10px;
+}
+
+.trend{
+    height: 100%;
+    width: 90%;
+
+}
+
+.trend-card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 15px;
+}
+
+.trend-image-text {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    margin-left: 80px;
+}
+
+.trend-text {
+    margin-left: 20px;
+}
+
+.trend-image-text img {
+    border-radius: 20px;
+}
+
+.trend h4 {
+    margin-bottom: 15px;
+}
